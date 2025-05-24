@@ -23,7 +23,7 @@ Explanation: Alice can achieve the maximum sum of 6 using a single operation:
 The total sum of values is 2 + 2 + 2 = 6.
 It can be shown that 6 is the maximum achievable sum of values. */
 
-class Solution {
+class q3068 {
     public long maximumValueSum(int[] nums, int k, int[][] edges) {
         long total = 0;
         int positiveGains = 0;
